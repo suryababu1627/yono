@@ -27,5 +27,5 @@ spec:
     spec:
       containers:
         - name: k8sproject
-          image: sb476555/yono:latest
+          image: surya1612/yono:latest
           imagePullPolicy: Always
