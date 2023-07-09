@@ -14,7 +14,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loadbalancer-pod
+  name: k8sproject
 spec:
   replicas: 3
   selector:
@@ -26,6 +26,6 @@ spec:
         app: hello 
     spec:
       containers:
-        - name: hello
+        - name: k8sproject
           image: surya1612/yono:latest
           imagePullPolicy: Always
